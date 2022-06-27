@@ -19,10 +19,10 @@
 let n = 6;
 
 if (n%2==0){
-    console.log("Cut")
+    console.log("EVEN")
 }
 else{
-    console.log("Tek")
+    console.log("ODD")
 }
 
 //TASK 2 ------------------------
@@ -41,13 +41,13 @@ if(b>a){
 
 //TASK 3 --------------------------
 
-let x = 4;
-let y = 8;
-let z = 11;
+let x = 22;
+let y = 35;
+let z = 15;
 
-if(x>(y,z)){
+if(x>y && x>z){
     console.log(x)
-}else if(y>(x,z)){
+}else if(y>x && y>z){
     console.log(y)
 }else {
     console.log(z)
@@ -56,7 +56,7 @@ if(x>(y,z)){
 //TASK 4 ----------------------------
 
 let start = 15;
-let num = 5;
+let num = 16;
 let end = 17;
 
 if (num>start && num<end){
