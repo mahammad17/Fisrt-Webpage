@@ -56,8 +56,8 @@ if(x>(y,z)){
 //TASK 4 ----------------------------
 
 let start = 15;
-let num = 12;
-let end = 10;
+let num = 5;
+let end = 17;
 
 if (num>start && num<end){
     console.log(true)
