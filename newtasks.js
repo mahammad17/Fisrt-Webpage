@@ -20,12 +20,12 @@ console.log(num);
 // 2. promptdan iki eded daxil edirem, birinci eded ikinci ise quvveti, meselen 2 sonra 3 daxil etdimse cavabda 8 cixarmalidi.
 
 
-// let number = prompt("Number","");
-// let square = prompt("Square","");
+let number = prompt("Number","");
+let square = prompt("Square","");
 
-// let squaredNumber = Math.pow(number,square);
+let squaredNumber = Math.pow(number,square);
 
-// console.log(squaredNumber);
+console.log(squaredNumber);
 
 
 
@@ -35,35 +35,35 @@ console.log(num);
 // 3. promptdan eded daxil edirem ve consolda bu sekilde cixarmalidir. meselen 8 daxil etdimse
 
 
-// let n = prompt("Enter the number", ""); 
-// let sp = "";
+let n = prompt("Enter the number", ""); 
+let sp = "";
 
 
-// for (let q = 1; q <= n; q++) {
-//   for (let w = 1; w <= q; w++) {
-//     sp += w;
-//   }
-//   sp += "\n";
-// }
-// console.log(sp);
+for (let q = 1; q <= n; q++) {
+  for (let w = 1; w <= q; w++) {
+    sp += w;
+  }
+  sp += "\n";
+}
+console.log(sp);
 
 
 //TASK 4 --------------------------------
 
 // 4. reqem daxil edirem ve nece reqemli oldugunu tapir. meselen 1234 reqemi daxil etsem proqram 4 cixarmalidir. (Math.floor nedi arasdirarsiz.)
 
-// let nn = prompt("Enter a number", "");
-// let count = 0;
+let nn = prompt("Enter a number", "");
+let count = 0;
 
-//   if(nn >= 1){
-//     count++;
-//   }
+  if(nn >= 1){
+    count++;
+  }
 
-//   while (nn / 10 >= 1) {
-//     nn /= 10;
-//     ++count;
-//   }
-//   console.log(count);
+  while (nn / 10 >= 1) {
+    nn /= 10;
+    count++;
+  }
+  console.log(count);
 
 
 
@@ -72,15 +72,15 @@ console.log(num);
 
 //5. eded daxil edirem ve reqemlerinin cemini cixarir. meselen 1234 daxil etsem mene cavab olaraq 10 cixarmalidir.
 
-// let val = prompt("Enter the number", "")
-// let sum = 0;
+let val = prompt("Enter the number", "")
+let sum = 0;
 
-// while(val){
-//   sum += val % 10;
-//   val = Math.floor(val / 10);
-// }
+while(val){
+  sum += val % 10;
+  val = Math.floor(val / 10);
+}
 
-// console.log("Summ: " + sum);
+console.log("Summ: " + sum);
 
 
 
@@ -89,33 +89,33 @@ console.log(num);
 //   6. Write a JavaScript program which itegrates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
 
-// for(i = 1; i <= 100; i++){
-//     if(i % 15 == 0){
-//     console.log("FizzBuzz");
-//     }
-//     else if(i % 5 == 0){
-//         console.log("Buzz");
-//      }
-//      else if(i % 3 == 0)
-//      {
-//          console.log("Fizz");
-//      }else{
-//          console.log(i);
-//      }
-// }
+for(i = 1; i <= 100; i++){
+    if(i % 15 == 0){
+    console.log("FizzBuzz");
+    }
+    else if(i % 5 == 0){
+        console.log("Buzz");
+     }
+     else if(i % 3 == 0)
+     {
+         console.log("Fizz");
+     }else{
+         console.log(i);
+     }
+}
 
 //TASK 7 -----------------
 
 // 7. Write a JavaScript program to sum the multiples of 3 and 5 under 1000.
 
 
-// let sumall = 0;
-// let m = prompt("Enter the number","")
+let sumall = 0;
+let m = prompt("Enter the number","")
 
-// for(a = 1; a < m; a++){
-//   if(a % 3 == 0 || a % 5 == 0){
-//   sumall += a;
-// }
-// }
+for(a = 1; a < m; a++){
+  if(a % 3 == 0 || a % 5 == 0){
+  sumall += a;
+}
+}
 
-// console.log("ALLSUM: " + sumall);
+console.log("ALLSUM: " + sumall);
